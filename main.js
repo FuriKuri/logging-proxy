@@ -5,8 +5,8 @@ process.on("uncaughtException", function(error) {
 });
 
 var localport = 8000;
-var remotehost = 'localhost';
-var remoteport = 8080;
+var remotehost = '142.93.170.117';
+var remoteport = 80;
 
 var server = net.createServer(function (localsocket) {
   var remotesocket = new net.Socket();
